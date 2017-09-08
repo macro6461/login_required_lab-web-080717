@@ -1,0 +1,5 @@
+<h1>Sessions#new</h1>
+<%=form_tag '/login' ({controller: 'sessions', action: 'show', method: 'post'})%>
+  <input name='name' value='Enter name here'>
+  <input type='submit' value='login'>
+<%end%>
